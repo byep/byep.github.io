@@ -1,49 +1,12 @@
-body {
-        background-color:red;
-        color:#FFFFFF;
-        overflow: hidden;
-        height:100%;
-        width:100%;
-        margin:0;padding:0;
-        overflow:hidden;
-        font-family: 'Inconsolata', Helvetica, sans-serif;
-        font-size: 12pt;
-        line-height: 21px;
-        -webkit-transform-origin: 50% 50%;
-        -moz-transform-origin: 50% 50%;
-        -o-transform-origin: 50% 50%;    
-        -ms-transform-origin: 50% 50%;  
-
-    }
-
-
-.background {
-    position:fixed;top:0px;left:0px;
-
-    
-}
-
-p {
-    display: block;
-    margin: 36px 0;
-}
-
- .inside {
-    display: block;
-    margin: 100px 0;
-}
-
-#container {
-    width: 1800px;
-    height: 500px;
-    margin: 0 auto;
-}
-
-
-* {
-    margin: 0;
-    padding: 0;
-}
+body {background:#000000;
+        font-family: 'Ubuntu', sans-serif;
+        font-size:12px;
+        color:#000000;
+        overflow:auto;
+        line-height:16px;
+/*        background:url("../images/icons/pink_dot.png");
+        background-attachment:fixed;*/
+        }
 
 a {
     color:#FFFFFF;
@@ -61,1540 +24,158 @@ a:visited {
 }
 
 h1 {
+    position: absolute;
     font-family: 'Inconsolata', Helvetica, sans-serif;
-    font-size: 22pt;
+    font-size: 100pt;
     font-weight: 700;
     text-decoration: underline;
-}
-
-/*Gallery Styles*/
- 
-
-
-/*List Styles*/
-ul {
-    list-style-type: none;
-    position: absolute;
-    width: 1800px;
-}
- 
-#gallery ul li {
-    float: left;
-    margin: 0px;
-    background: white;
-    width: 140px;
-    height: *;
-}
- 
-#gallery ul li:hover {
-        width: 140px;
-        height: *;
-}
- 
-#gallery ul li img{
-        width: 140px;
-        height: *;
-
-}
-
-* {
-        -webkit-transform-origin: 0 0;
-        -moz-transform-origin: 0 0;
-        -o-transform-origin: 0 0;
-        -ms-transform-origin: 0 0;
-}
-
-html, body {
-        margin: 0px;
-        padding: -1px;
-        padding-top:-100px;
-        width:100%;
-        height:100%;
-}
-
-html.noScroll {
-        overflow:hidden;
-}
-
-.debuglabel {
-        width:4px;
-        height:4px;
-        background-color:red;
-        position:absolute;
-        margin-left:-2px;
-        margin-top:-2px;
+    z-index: 200;
 }
 
 
-    /*_________*_*_*_*_*_*_*_*_*_*_ROLLOVER PHOTOS_*_*_*_*_*_*_*_*_*_*__________*/
-
-    /*____________*_*_*_*_*_*_*_*_*_*_*_ROW 1  (X_Y0) _*_*_*_*_*_*_*_*_*_*_*_*_*/
-
-
-    #x0y0 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x0y0.jpg");
-        background-size:100%; 
-    }
-
-    #x0y0 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x0y0.jpg"); 
-    }
-    #x1y0 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x1y0.jpg");
-        background-size:100%; 
-    }
-
-    #x1y0 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x1y0.jpg"); 
-    }
-    #x2y0 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x2y0.jpg");
-        background-size:100%; 
-    }
-
-    #x2y0 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x2y0.jpg"); 
-    }
-    #x3y0 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x3y0.jpg");
-        background-size:100%; 
-    }
-
-    #x3y0 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x3y0.jpg"); 
-    }
-    #x4y0 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x4y0.jpg");
-        background-size:100%; 
-    }
-
-    #x4y0 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x4y0.jpg"); 
-    }
-    #x5y0 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x5y0.jpg");
-        background-size:100%; 
-    }
-
-    #x5y0 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x5y0.jpg"); 
-    }
-    #x6y0 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x6y0.jpg");
-        background-size:100%; 
-    }
-
-    #x6y0 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x6y0.jpg"); 
-    }
-    #x7y0 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x7y0.jpg");
-        background-size:100%; 
-    }
-
-    #x7y0 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x7y0.jpg"); 
-    }
-    #x8y0 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x8y0.jpg");
-        background-size:100%; 
-    }
-
-    #x8y0 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x8y0.jpg"); 
-    }
-    #x9y0 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x9y0.jpg");
-        background-size:100%; 
-    }
-
-    #x9y0 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x9y0.jpg"); 
-    }
-    #x10y0 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x10y0.jpg");
-        background-size:100%; 
-    }
-
-    #x10y0 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x10y0.jpg"); 
-    }
-    #x11y0 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x11y0.jpg");
-        background-size:100%; 
-    }
-
-    #x11y0 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x11y0.jpg"); 
-    }
-
-     /*____________*_*_*_*_*_*_*_*_*_*_*_ROW 2 (X_Y1) _*_*_*_*_*_*_*_*_*_*_*_*_*/
-
-    #x0y1 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x0y1.jpg");
-        background-size:100%; 
-    }
-
-    #x0y1 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x0y1.jpg"); 
-    }     
-
-    #x1y1 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x1y1.jpg");
-        background-size:100%; 
-    }
-
-    #x1y1 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x1y1.jpg"); 
-    } 
-
-    #x2y1 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x2y1.jpg");
-        background-size:100%; 
-    }
-
-    #x2y1 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x2y1.jpg"); 
-    } 
-
-    #x3y1 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x3y1.jpg");
-        background-size:100%; 
-    }
-
-    #x3y1 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x3y1.jpg"); 
-    } 
-
-    #x4y1 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x4y1.jpg");
-        background-size:100%; 
-    }
-
-    #x4y1 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x4y1.jpg"); 
-    } 
-
-    #x5y1 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x5y1.jpg");
-        background-size:100%; 
-    }
-
-    #x5y1 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x5y1.jpg"); 
-    } 
-
-    #x6y1 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x6y1.jpg");
-        background-size:100%; 
-    }
-
-    #x6y1 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x6y1.jpg"); 
-    } 
-
-    #x7y1 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x7y1.jpg");
-        background-size:100%; 
-    }
-
-    #x7y1 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x7y1.jpg"); 
-    } 
-
-    #x8y1 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x8y1.jpg");
-        background-size:100%; 
-    }
-
-    #x8y1 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x8y1.jpg"); 
-    } 
-
-    #x9y1 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x9y1.jpg");
-        background-size:100%; 
-    }
-
-    #x9y1 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x9y1.jpg"); 
-    } 
-
-    #x10y1 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x10y1.jpg");
-        background-size:100%; 
-    }
-
-    #x10y1 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x10y1.jpg"); 
-    } 
-
-    #x11y1 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x11y1.jpg");
-        background-size:100%; 
-    }
-
-    #x11y1 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x11y1.jpg"); 
-    } 
-      /*____________*_*_*_*_*_*_*_*_*_*_*_ROW 3 (X_Y2) _*_*_*_*_*_*_*_*_*_*_*_*_*/
-
-    #x0y2 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x0y2.jpg");
-        background-size:100%; 
-    }
-
-    #x0y2 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x0y2.jpg"); 
-    } 
-
-    #x1y2 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x1y2.jpg");
-        background-size:100%; 
-    }
-
-    #x1y2 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x1y2.jpg"); 
-    } 
-
-    #x2y2 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x2y2.jpg");
-        background-size:100%; 
-    }
-
-    #x2y2 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x2y2.jpg"); 
-    } 
-
-    #x3y2 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x3y2.jpg");
-        background-size:100%; 
-    }
-
-    #x3y2 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x3y2.jpg"); 
-    } 
-
-    #x4y2 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x4y2.jpg");
-        background-size:100%; 
-    }
-
-    #x4y2 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x4y2.jpg"); 
-    } 
-
-    #x5y2 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x5y2.jpg");
-        background-size:100%; 
-    }
-
-    #x5y2 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x5y2.jpg"); 
-    } 
-
-    #x6y2 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x6y2.jpg");
-        background-size:100%; 
-    }
-
-    #x6y2 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x6y2.jpg"); 
-    } 
-
-    #x7y2 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x7y2.jpg");
-        background-size:100%; 
-    }
-
-    #x7y2 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x7y2.jpg"); 
-    } 
-
-    #x8y2 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x8y2.jpg");
-        background-size:100%; 
-    }
-
-    #x8y2 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x8y2.jpg"); 
-    } 
-
-    #x9y2 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x9y2.jpg");
-        background-size:100%; 
-    }
-
-    #x9y2 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x9y2.jpg"); 
-    } 
-
-    #x10y2 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x10y2.jpg");
-        background-size:100%; 
-    }
-
-    #x10y2 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x10y2.jpg"); 
-    } 
-
-    #x11y2 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x11y2.jpg");
-        background-size:100%; 
-    }
-
-    #x11y2 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x11y2.jpg"); 
-    } 
-
-       /*____________*_*_*_*_*_*_*_*_*_*_*_ROW 4 (X_Y3) _*_*_*_*_*_*_*_*_*_*_*_*_*/
-
-    #x0y3 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x0y3.jpg");
-        background-size:100%; 
-    }
-
-    #x0y3 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x0y3.jpg"); 
-    } 
-
-    #x1y3 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x1y3.jpg");
-        background-size:100%; 
-    }
-
-    #x1y3 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x1y3.jpg"); 
-    } 
-
-    #x2y3 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x2y3.jpg");
-        background-size:100%; 
-    }
-
-    #x2y3 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x2y3.jpg"); 
-    } 
-
-    #x3y3 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x3y3.jpg");
-        background-size:100%; 
-    }
-
-    #x3y3 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x3y3.jpg"); 
-    } 
-
-    #x4y3 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x4y3.jpg");
-        background-size:100%; 
-    }
-
-    #x4y3 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x4y3.jpg"); 
-    } 
-
-    #x5y3 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x5y3.jpg");
-        background-size:100%; 
-    }
-
-    #x5y3 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x5y3.jpg"); 
-    } 
-
-    #x6y3 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x6y3.jpg");
-        background-size:100%; 
-    }
-
-    #x6y3 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x6y3.jpg"); 
-    } 
-
-    #x7y3 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x7y3.jpg");
-        background-size:100%; 
-    }
-
-    #x7y3 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x7y3.jpg"); 
-    } 
-
-    #x8y3 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x8y3.jpg");
-        background-size:100%; 
-    }
-
-    #x8y3 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x8y3.jpg"); 
-    } 
-
-    #x9y3 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x9y3.jpg");
-        background-size:100%; 
-    }
-
-    #x9y3 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x9y3.jpg"); 
-    } 
-
-    #x10y3 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x10y3.jpg");
-        background-size:100%; 
-    }
-
-    #x10y3 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x10y3.jpg"); 
-    } 
-
-    #x11y3 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x11y3.jpg");
-        background-size:100%; 
-    }
-
-    #x11y3 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x11y3.jpg"); 
-    } 
-
-
-    /*____________*_*_*_*_*_*_*_*_*_*_*_ROW 5 (X_Y4) _*_*_*_*_*_*_*_*_*_*_*_*_*/
-
-
-    #x0y4 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x0y4.jpg");
-        background-size:100%; 
-    }
-
-    #x0y4 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x0y4.jpg"); 
-    } 
-
-    #x1y4 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x1y4.jpg");
-        background-size:100%; 
-    }
-
-    #x1y4 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x1y4.jpg"); 
-    } 
-
-    #x2y4 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x2y4.jpg");
-        background-size:100%; 
-    }
-
-    #x2y4 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x2y4.jpg"); 
-    } 
-
-    #x3y4 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x3y4.jpg");
-        background-size:100%; 
-    }
-
-    #x3y4 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x3y4.jpg"); 
-    } 
-
-    #x4y4 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x4y4.jpg");
-        background-size:100%; 
-    }
-
-    #x4y4 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x4y4.jpg"); 
-    } 
-
-    #x5y4 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x5y4.jpg");
-        background-size:100%; 
-    }
-
-    #x5y4 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x5y4.jpg"); 
-    } 
-
-    #x6y4 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x6y4.jpg");
-        background-size:100%; 
-    }
-
-    #x6y4 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x6y4.jpg"); 
-    } 
-
-    #x7y4 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x7y4.jpg");
-        background-size:100%; 
-    }
-
-    #x7y4 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x7y4.jpg"); 
-    } 
-
-    #x8y4 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x8y4.jpg");
-        background-size:100%; 
-    }
-
-    #x8y4 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x8y4.jpg"); 
-    }
-
-    #x9y4 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x9y4.jpg");
-        background-size:100%; 
-    }
-
-    #x9y4 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x9y4.jpg"); 
-    } 
-
-    #x10y4 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x10y4.jpg");
-        background-size:100%; 
-    }
-
-    #x10y4 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x10y4.jpg"); 
-    } 
-
-    #x11y4 a {     
-        display : block;
-        width : 140px;
-        height : 93px;             
-        background-image : url("../images/composition_coordinates/x11y4.jpg");
-        background-size:100%; 
-    }
-
-    #x11y4 a:hover { 
-        display : block;
-        width : 140px;
-        height : 93px; 
-        background-image : url("../images/photo/x11y4.jpg"); 
-    } 
-
-
-
-
-
-
-    /*_________*_*_*_*_*_*_*_*_*_*_*_*_*ARROWS_*_*_*_*_*_*_*_*_*_*______________*/
-
-    #right_arrow_1 {
-        position:absolute;
-        top:393px;right:43px;
-        background:none;
-        width:51px;height:51px;
-        z-index: 99;
-    }
-
-
-    #right_arrow_2 {
-        position:absolute;
-        top:393px;right:-1637px;
-        background:none;
-        width:51px;height:51px;
-        z-index: 99;
-
-    }
-
-
-    #left_arrow_2 {
-        position:absolute;
-        top:393px;right:-94px;
-        background:none;
-        width:51px;height:51px;
-        z-index: 99;
-
+.background_overlay {
+    position:fixed;
+    top:-3px;left:-3px;
+    width:105%;height: 105%;
+    background:url("../images/icons/pink_dot.png");
     }
 
 
-    #right_arrow_3 {
-        position:absolute;
-        top:393px;right:-3317px;
-        background:none;
-        width:51px;height:51px;
-        z-index: 99;
 
-    }
-
-
-    #left_arrow_3 {
-        position:absolute;
-        top:393px;right:-1774px;
-        background:none;
-        width:51px;height:51px;
-        z-index: 99;
-
-    }
-
-
-    #right_arrow_4 {
-        position:absolute;
-        top:393px;right:-4997px;
-        background:none;
-        width:51px;height:51px;
-        z-index: 99;
-
-    }
-
-
-    #left_arrow_4 {
-        position:absolute;
-        top:393px;right:-3454px;
-        background:none;
-        width:51px;height:51px;
-        z-index: 99;
-
-    }
-
-    #left_arrow_5 {
-        position:absolute;
-        top:393px;right:-5134px;
-        background:none;
-        width:51px;height:51px;
-        z-index: 99;
-
-    }
-
-
-
-/*_________*_*_*_*_*_*_*_*_*_*_*_*_*_ROLLOVER ARROWS_*_*_*_*_*_*_*_*_*_*______________*/
-
-  #right_arrow_1 a {     
-        display : block;
-        width : 51px;
-        height : 51px;             
-        background-image : url("../images/arrow_right.png");
-        background-size:100%; 
-    }
-
-    #right_arrow_1 a:hover { 
-        display : block;
-        width : 51px;
-        height : 51px; 
-        background-image : url("../images/arrow_right_hover.png"); 
-        background-size:100%; 
-    }
-
-  #left_arrow_2 a {     
-        display : block;
-        width : 51px;
-        height : 51px;             
-        background-image : url("../images/arrow_left.png");
-        background-size:100%; 
-    }
-
-    #left_arrow_2 a:hover { 
-        display : block;
-        width : 51px;
-        height : 51px; 
-        background-image : url("../images/arrow_left_hover.png"); 
-        background-size:100%; 
-    }
-
-      #right_arrow_2 a {     
-        display : block;
-        width : 51px;
-        height : 51px;             
-        background-image : url("../images/arrow_right.png");
-        background-size:100%; 
-    }
-
-    #right_arrow_2 a:hover { 
-        display : block;
-        width : 51px;
-        height : 51px; 
-        background-image : url("../images/arrow_right_hover.png"); 
-        background-size:100%; 
-    }
-
-
-  #left_arrow_3 a {     
-        display : block;
-        width : 51px;
-        height : 51px;             
-        background-image : url("../images/arrow_left.png");
-        background-size:100%; 
-    }
 
-    #left_arrow_3 a:hover { 
-        display : block;
-        width : 51px;
-        height : 51px; 
-        background-image : url("../images/arrow_left_hover.png"); 
-        background-size:100%; 
-    }
-
-      #right_arrow_3 a {     
-        display : block;
-        width : 51px;
-        height : 51px;             
-        background-image : url("../images/arrow_right.png");
-        background-size:100%; 
-    }
-
-    #right_arrow_3 a:hover { 
-        display : block;
-        width : 51px;
-        height : 51px; 
-        background-image : url("../images/arrow_right_hover.png"); 
-        background-size:100%; 
-    }
-
-
-  #left_arrow_4 a {     
-        display : block;
-        width : 51px;
-        height : 51px;             
-        background-image : url("../images/arrow_left.png");
-        background-size:100%; 
-    }
-
-    #left_arrow_4 a:hover { 
-        display : block;
-        width : 51px;
-        height : 51px; 
-        background-image : url("../images/arrow_left_hover.png"); 
-        background-size:100%; 
-    }
-
-      #right_arrow_4 a {     
-        display : block;
-        width : 51px;
-        height : 51px;             
-        background-image : url("../images/arrow_right.png");
-        background-size:100%; 
-    }
-
-    #right_arrow_4 a:hover { 
-        display : block;
-        width : 51px;
-        height : 51px; 
-        background-image : url("../images/arrow_right_hover.png"); 
-        background-size:100%; 
-    }
-
-
-  #left_arrow_5 a {     
-        display : block;
-        width : 51px;
-        height : 51px;             
-        background-image : url("../images/arrow_left.png");
-        background-size:100%; 
-    }
 
-    #left_arrow_5 a:hover { 
-        display : block;
-        width : 51px;
-        height : 51px; 
-        background-image : url("../images/arrow_left_hover.png"); 
-        background-size:100%; 
-    }
-
-
-
-
-
-
-
-
 
-      .menu3 {
-        position:absolute;
-        top:500px;left:3551px;
-        background:white;
-        width:200px;height:200px;
-        z-index: 99;
-
-    }
-
-          .menu4 {
-        position:absolute;
-        top:500px;left:5300px;
-        background:white;
-        width:200px;height:200px;
-        z-index: 99;
-
-    }
-
-
-          .menu5 {
-        position:absolute;
-        top:500px;left:6900px;
-        background:white;
-        width:200px;height:200px;
-        z-index: 99;
-
-    }
+/*____*_*__*_*_*_*_*_*_*___CONTROLS____*_*_*_*_*_*_*/
 
-    #wrapper {
-    width:100%;
-    height:100%;
+.reset_command {
     position:absolute;
-    top:25px;left:0;
-    background: #000000;
-    overflow:hidden;
+    top:200px;left:200px;
+    z-index: 20;
 }
 
-    #mask {
-        width:500%;
-        height:100%;
-        background: #000000;
-    }
-
-    .item {
-        width:20%;
-        height:100%;
-        float:left;
-        background: #000000;
-    }
-
-    .content
-        {
-            background:#000000;
-        }
-
-    .selected {
-        background: none;
-        font-weight:700;
-    }
-
-    .clear {
-        clear:both;
-    }
-
-
-
- /* General styles for all menus */
- 
-.cbp-spmenu {
-    background: #47a3da;
-    position: fixed;
+.reset {
+    position:absolute;
+    top:-3px;left:-3px;
+    width:105%;height: 105%;
+    background:url("../images/icons/reset.png");
+    z-index: 10;
 }
- 
-.cbp-spmenu h3 {
-    color: #afdefa;
-    font-size: 1.9em;
-    padding: 20px;
-    margin: 0;
-    font-weight: 300;
-    background: #0d77b6;
-}
- 
-.cbp-spmenu a {
-    display: block;
-    color: #fff;
-    font-size: 1.1em;
-    font-weight: 300;
-}
- 
- /*___________________________change style of menu hover___________________*/
-.cbp-spmenu a:hover {
-    background: #363636;
-    width:140px;height:100%;
-    margin-top: -110px;
-    padding-top: 110px;
-}
- 
-.cbp-spmenu a:active {
-    color: white;
-}
- 
-/* Orientation-dependent styles for the content of the menu */
- 
-.cbp-spmenu-vertical {
-    width: 240px;
-    height: 100%;
-    top: 0;
-    z-index: 1000;
 
-}
- 
-.cbp-spmenu-vertical a {
-    border-bottom: 1px solid #258ecd;
-    padding: 1em;
-}
- 
-.cbp-spmenu-horizontal {
-    width: 100%;
-    height: 150px;
-    left: 0;
-    z-index: 1000;
-    overflow: hidden;
-}
- 
-.cbp-spmenu-horizontal h3 {
-    height: 100%;
-    width: 20%;
-    float: left;
-}
- 
 
- /*_________________________change style of menu_____________________________*/
 
-.cbp-spmenu-horizontal a {
-    float: left;
-    width: 100%;height: 100%;
+/*___*_*_*_*_*_*____FOLDERS ROW 1_____*_*_*_*_*_*/
+
+.wrapper {
+    width:810px;
+    height:510px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin:-315px 0 0 -405px;
+    z-index: 200;
+}
+
+.space {
+    float:left;
+    width:270px;height:230px;
+    text-align: center;
+}
+
+.space2 {
+    float:left;
+    width:176px;height:230px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.space2 a {
     text-decoration: none;
-    margin-top: -50px;
-    padding-top: 50px;
+    font-weight: bold;
+    text-shadow:
+        2px 2px 5px rgba(0,0,0,0.1),
+        -1px 2px 1px rgba(0,0,0,0.1),
+        -5px 2px 5px rgba(0,0,0,0.4),
+        -2px -2px 5px rgba(0,0,0,0.1),
+        2px -2px 5px rgba(0,0,0,0.2);
 
-}
-
- 
-/* Horizontal menu that slides from the top or bottom */
- 
-.cbp-spmenu-top {
-    top: -93px;left:0px;
-    width: 100%;height: 118px;
-
-}
- 
-.cbp-spmenu-top.cbp-spmenu-open {
-    top: 0px;
-}
- 
-/* Transitions */
- 
-.cbp-spmenu,
-.cbp-spmenu-push {
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
- 
-/* Example media queries */
- 
-@media screen and (max-width: 55.1875em){
- 
-    .cbp-spmenu-horizontal {
-        font-size: 75%;
-        height: 110px;
-    }
- 
-    .cbp-spmenu-top {
-        top: -110px;
-    }
- 
-    .cbp-spmenu-bottom {
-        bottom: -110px;
-    }
- 
-}
- 
-@media screen and (max-height: 26.375em){
- 
-    .cbp-spmenu-vertical {
-        font-size: 90%;
-        width: 190px;
-    }
- 
-    .cbp-spmenu-left,
-    .cbp-spmenu-push-toleft {
-        left: -190px;
-    }
- 
-    .cbp-spmenu-right {
-        right: -190px;
-    }
- 
-    .cbp-spmenu-push-toright {
-        left: 190px;
-    }
+        /*LEFT TOP BLUR rgba(0,0,0,0.5),*/
 }
 
-/*-------_______*_*_*_*_*_*_*_*_*_*_*_Lower Menu Button_*_*_*_*_*_*_*_*_*______*/
-.move {
+.folder_x0y0 {
     float:left;
-    position: relative;
-    top: 102px;
-    color:white;
-    font-family: 'Inconsolata', Helvetica, sans-serif;
-    width:140px;
-    text-align: center
+    -moz-box-shadow:-10px 10px 15px rgba(0,0,0,0.25);
+    -webkit-box-shadow:-10px 10px 15px rgba(0,0,0,0.25);
+    box-shadow:-10px 10px 15px rgba(0,0,0,0.25);
+    background:none;
 }
 
-
-.current {
-    position: relative;
-    top:0px;left: 0px;
-    background: #2b2b2b;
-    width:140px;height:100%;
-    margin-top: -50px;
-    padding-top: 50px;
-}
-
-
-.move2 {
+.folder_x1y0 {
     float:left;
-    position: relative;
-    top: 50px;
-    color:white;
-    font-family: 'Inconsolata', Helvetica, sans-serif;
-    width:140px;
-    text-align: center
-    
+    -moz-box-shadow:-10px 10px 15px rgba(0,0,0,0.25);
+    -webkit-box-shadow:-10px 10px 15px rgba(0,0,0,0.25);
+    box-shadow:-10px 10px 15px rgba(0,0,0,0.25);
+    background:none;
 }
 
-.move3 {
+.folder_x2y0 {
     float:left;
-    position: relative;
-    top: 50px;
-    color:white;
-    font-family: 'Inconsolata', Helvetica, sans-serif;
-    width:140px;
-    text-align: center;
-    
+    -moz-box-shadow:-10px 10px 15px rgba(0,0,0,0.25);
+    -webkit-box-shadow:-10px 10px 15px rgba(0,0,0,0.25);
+    box-shadow:-10px 10px 15px rgba(0,0,0,0.25);
+    background:none;
 }
 
-.move4 {
+
+/*___*_*_*_*_*_*____FOLDERS ROW 2_____*_*_*_*_*_*/
+
+.folder_x0y1 {
     float:left;
-    position: relative;
-    top: 50px;
-    color:white;
-    font-family: 'Inconsolata', Helvetica, sans-serif;
-    width:140px;
-    text-align: center
-
+    -moz-box-shadow:-10px 10px 15px rgba(0,0,0,0.1);
+    -webkit-box-shadow:-10px 10px 15px rgba(0,0,0,0.1);
+    box-shadow:-10px 10px 15px rgba(0,0,0,0.1);
+    background:none;
 }
 
-#cbp-spmenu-s3 {
-    background-color: #000000;
+.folder_x1y1 {
+    float:left;
+    -moz-box-shadow:-10px 10px 15px rgba(0,0,0,0.1);
+    -webkit-box-shadow:-10px 10px 15px rgba(0,0,0,0.1);
+    box-shadow:-10px 10px 15px rgba(0,0,0,0.1);
+    background:none;
 }
 
-
-
-/*________________*_*_*_*_*_*_*_*_*ABOUT_*_*_*_*_*_*_*_*_*_______________*/
-
-
-.blurred {
-    position:absolute;
-    top:25px;left:0px;
-    width: 100%;height: 100%;
-    background: url("../images/blurred.jpg");
+.folder_x2y1 {
+    float:left;
+    -moz-box-shadow:-10px 10px 15px rgba(0,0,0,0.1);
+    -webkit-box-shadow:-10px 10px 15px rgba(0,0,0,0.1);
+    box-shadow:-10px 10px 15px rgba(0,0,0,0.1);
+    background:none;
 }
 
-.black_cover{
-    position:absolute;
-    top:0px;left:0px;
-    width:100%;height:100%;
-    background:black;
-    opacity:.75;
-    z-index: 100;
+/*___*_*_*_*_*_*____FOLDERS ROW 3_____*_*_*_*_*_*/
+
+
+
+.folder_x0y2 {
+    float:left;
+    -moz-box-shadow:-10px 10px 15px rgba(0,0,0,0.1);
+    -webkit-box-shadow:-10px 10px 15px rgba(0,0,0,0.1);
+    box-shadow:-10px 10px 15px rgba(0,0,0,0.1);
+    background:none;
 }
 
-
-.about_text {
-    position:absolute;
-    top:185px;left:560px;
-    width:560px;height:558px;
-    color:white;
-    font-family: 'Inconsolata', Helvetica, sans-serif;
-    font-size: 12pt;
-    line-height: 21px;
-    /*font-size: 14pt;
-    line-height: 23px;*/
-    z-index: 1005;
+.folder_x1y2 {
+    float:left;
+    -moz-box-shadow:-10px 10px 15px rgba(0,0,0,0.1);
+    -webkit-box-shadow:-10px 10px 15px rgba(0,0,0,0.1);
+    box-shadow:-10px 10px 15px rgba(0,0,0,0.1);
+    background:none;
 }
 
-.submit {
-    position:absolute;
-    top:805px;left:560px;
-    width:560px;height:100px;
-    text-align: center;
-    /*font-size: 14pt;
-    line-height: 23px;*/
-    z-index: 1005;
+.folder_x2y2 {
+    float:left;
+    -moz-box-shadow:-10px 10px 15px rgba(0,0,0,0.1);
+    -webkit-box-shadow:-10px 10px 15px rgba(0,0,0,0.1);
+    box-shadow:-10px 10px 15px rgba(0,0,0,0.1);
+    background:none;
 }
-
-.submit a {
-    color:white;
-    font-family: 'Inconsolata', Helvetica, sans-serif;
-    font-size: 12pt;
-    line-height: 21px;
-    /*font-size: 14pt;
-    line-height: 23px;*/
-}
-
-.submit a:hover {
-    color:white;
-    /*font-size: 14pt;
-    line-height: 23px;*/
-}
-
-.submit a:visited {
-    color:white;
-    /*font-size: 14pt;
-    line-height: 23px;*/
-}
-
-/*.close {
-    text-align: right;
-}*/
-
-
-.blank {
-    position:absolute;
-    top:0px;left:0px;
-    width:100%;height:100%;
-}
-
-
-
